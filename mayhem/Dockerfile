@@ -14,8 +14,8 @@
 #
 ################################################################################
 
-FROM gcr.io/oss-fuzz-base/base-builder
-RUN apt-get update && apt-get install -y make autoconf automake libtool pkg-config libglib2.0-dev libdbus-1-dev libreadline8 libreadline-dev python-docutils libudev-dev udev libical-dev libdbus-1-dev
+FROM andrew5194/oss-fuzz-base-builder
+RUN apt-get update && apt-get install -y make autoconf automake libtool pkg-config libglib2.0-dev libdbus-1-dev libreadline8 libreadline-dev python3-docutils libudev-dev udev libical-dev libdbus-1-dev libell-dev systemd
 COPY . bluez
 RUN rm -rf bluez/mayhem
 WORKDIR bluez

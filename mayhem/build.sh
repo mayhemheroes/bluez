@@ -17,7 +17,7 @@
 
 ./bootstrap
 autoreconf -f
-./configure
+./configure --enable-external-ell
 make
 
 INCLUDES="-I. -I./lib"
