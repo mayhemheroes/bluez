@@ -17,7 +17,7 @@
 
 ./bootstrap
 autoreconf -f
-./configure
+./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var
 make
 
 INCLUDES="-I. -I./lib"
