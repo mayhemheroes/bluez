@@ -1,4 +1,4 @@
-project: PROJECT
+project: bluez 
 target: fuzz_sdp
 cmds:
-- cmd: /out/fuzz_sdp 
+- cmd: /out/fuzz_sdp
