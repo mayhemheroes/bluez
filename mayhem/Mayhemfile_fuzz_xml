@@ -1,0 +1,4 @@
+project: bluez
+target: fuzz_xml
+cmds:
+  - cmd: /mayhem/fuzz_xml

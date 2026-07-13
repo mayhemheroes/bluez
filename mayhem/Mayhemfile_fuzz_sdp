@@ -1,0 +1,4 @@
+project: bluez
+target: fuzz_sdp
+cmds:
+  - cmd: /mayhem/fuzz_sdp

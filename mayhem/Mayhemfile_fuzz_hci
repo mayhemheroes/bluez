@@ -1,0 +1,4 @@
+project: bluez
+target: fuzz_hci
+cmds:
+  - cmd: /mayhem/fuzz_hci

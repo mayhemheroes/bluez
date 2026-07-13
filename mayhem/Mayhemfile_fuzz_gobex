@@ -1,0 +1,4 @@
+project: bluez
+target: fuzz_gobex
+cmds:
+  - cmd: /mayhem/fuzz_gobex

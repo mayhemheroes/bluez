@@ -1,0 +1,4 @@
+project: bluez
+target: fuzz_textfile
+cmds:
+  - cmd: /mayhem/fuzz_textfile
